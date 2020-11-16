@@ -1,13 +1,8 @@
 # *News*
 
-## v1.1.0
-* Continue to abstract functionality into CoreGx
-* Add additional plotting functions such as grouped boxplots
-* Extend coverage of unit tests to >90%
-* Implement a faster version of drugPertubationSignature
-* Add additional plotting functions
-* Include scripts for differential expression analysis and GSEA of 
-  toxico-genomic data (limma)
+## v1.0.1
+* Updated computeLimmaDiffExpr function to stratify on cell line if a ToxicoSet has more than one
+* This is needed to support new data being release for this package
 
 ## v1.0.0
 * Package archived on CRAN
